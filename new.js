@@ -34,4 +34,7 @@ const user ={
     'YOE': 1
 }
 
-console.log(user)
+console.log(user['Name'])
+
+
+
