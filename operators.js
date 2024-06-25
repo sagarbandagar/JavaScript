@@ -9,3 +9,5 @@ console.log('a*b is :', a * b)
 console.log('a/b is :', a / b)
 console.log('a%b is :', a % b)
 console.log('a &&b is :', a && b)
+
+console.log('New message ');
