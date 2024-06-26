@@ -1,5 +1,5 @@
 // Chapter 11
-//Functions in javasvript
+//Functions in JavaScript
 
 function sum(a, b) {
     return (a + b);
