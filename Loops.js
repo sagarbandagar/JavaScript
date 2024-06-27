@@ -10,6 +10,12 @@ for (let i = 0; i < arr.length; i++) {
 let ans = Array.from(arr)
 console.log(ans);   // to convert other objects into array of js
 
+//for each loop in js
+arr.forEach((element) => {
+    console.log(element * element);
+}
+)
+
 
 // alternate method
 let array = [100, 200, 300, 400]
@@ -19,9 +25,4 @@ for (let i in array) {
 }
 
 
-//for each loop in js
-arr.forEach((element) => {
-    console.log(element * element);
-}
-)
 
