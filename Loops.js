@@ -1,5 +1,5 @@
-// // //Chapter 05
-// // //Loops in JS 
+//Chapter 05
+//Loops in JS 
 
 let arr = [1, 2, 3, 4, 5]
 
@@ -27,16 +27,31 @@ new_arr.forEach((value, index, array) => {
 })
 
 // map in array 
-let a =[500,550,600,650]
-let newArray =a.map((value)=>{
+let a = [500, 550, 600, 650]
+let newArray = a.map((value) => {
     return value + value;
 })
 console.log(newArray);
 console.log(a);
 
 // Filter in array
-let filter_array=a.filter((value)=>{
+let filter_array = a.filter((value) => {
     return value < 600
 })
 console.log(filter_array)
 console.log(a)
+
+//reduce in array
+let arr3 = [1, 2, 3, 4, 5]
+const newArr = (h1, h2) => {
+    return h1 + h2
+}
+
+console.log(arr3.reduce(newArr));
+
+//another method in reduce
+let arr4=[1,1,1,1]
+let ans1=arr4.reduce((h1,h2)=>{
+    return h1+h2
+});
+console.log(ans1);
