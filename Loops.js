@@ -52,6 +52,6 @@ console.log(arr3.reduce(newArr));
 //another method in reduce
 let arr4=[1,1,1,1]
 let ans1=arr4.reduce((h1,h2)=>{
-    return h1+h2
+    return h1*h2
 });
 console.log(ans1);
