@@ -20,4 +20,4 @@ console.log(name.toUpperCase()); // UpperCase
 console.log(name.toLowerCase()); //LowerCase
 console.log(name.slice(1)); //  slicing
 console.log(name.trim());  // trimming , removing white spaces
-console.log(name.concat(' is a boy '));  // concatenation
+console.log(name.concat(' is a boy but less than 18 '));  // concatenation
