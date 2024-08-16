@@ -14,4 +14,9 @@ const hello = () => {
     console.log("Heyy , This is an arrow function");
 }
 
+const Hello_from2 =()=>{
+    console.log("Hello from other function also ")
+}
+
 hello();
+Hello_from2();
