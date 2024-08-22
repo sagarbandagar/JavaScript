@@ -7,7 +7,7 @@ console.log(ans); //string interpolation
 
 // escape sequence in js
 
-user = "Marcus \D'Raman;"
+const user = "Marcus \D'Raman;"
 console.log(user);
 
 // quiz for printing a name using for loop
@@ -15,7 +15,7 @@ console.log(user);
 for (let i = 0; i < name.length; i++) {
 
     console.log(name[i]);
-};
+}
 console.log(name.toUpperCase()); // UpperCase
 console.log(name.toLowerCase()); //LowerCase
 console.log(name.slice(1)); //  slicing
