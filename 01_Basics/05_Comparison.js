@@ -16,6 +16,9 @@ console.log(a === b);  // checks for datatype
 // console.log(a == b);
 // console.log(a == b);
 
+console.log(typeof(a));
+
+
 
 
 
